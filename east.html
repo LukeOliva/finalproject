@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Oliva | Final Project: West</title>
+<style>
+
+
+#photo{
+    background-image:url("img/eastern.png");
+    height:500px;
+    background-repeat:no-repeat;
+    margin-left:285px;
+}
+
+#back{
+    background-color:white;
+}
+
+#sga{
+    height:250px;
+    width:auto;
+}
+
+#jokic{
+    height:250px;
+    width:auto;
+}
+
+#ant{
+    height:250px;
+    width:auto;
+}
+
+#steph{
+    height:250px;
+    width:auto;
+}
+
+
+h2{
+    margin-top:-4px;
+}
+
+#one{
+    float:left;
+    width:375px;
+    text-align: center;
+    background-color:maroon;
+    margin-left:270px;
+    margin-top:75px;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+#two{
+    float:left;
+    width:375px;
+    text-align: center;
+    background-color:maroon;
+    color:white;
+    margin-top:75px;
+    padding:20px;
+    border-radius:15px;
+    margin-left:100px;
+}
+
+#three{
+    float:left;
+    width:375px;
+    text-align: center;
+    background-color:maroon;
+    margin-left:270px;
+    margin-top:75px;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+#four{
+    float:left;
+    width:375px;
+    text-align: center;
+    background-color:maroon;
+    color:white;
+    margin-top:75px;
+    padding:20px;
+    border-radius:15px;
+    margin-left:100px;
+}
+
+#form{
+    margin-top:75px;
+    background-color:maroon;
+    color:white;
+    width:536px;
+    margin-left:467px;
+    padding:10px;
+    border-radius:15px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="header">
+The NBA Playoffs
+</div>
+<div id="back">
+<div id="photo"> </div>
+</div>
+
+<div id="nav-wrapper">
+  <div id="nav">
+    <ul class="menu">
+        <a href="west.html">West</a>
+        <a href="index.html">Home</a>
+        <a href="east.html" class="active">East</a>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+
+<div id="one">
+
+<h2>Boston Celtics</h2>
+
+<img src="img/tatum.jpg" alt="Jason Tatum" id="sga">
+<div class="desc">
+<p>The Boston Celtics entered the playoffs as the top seed in the Eastern Conference, boasting a strong core of Jayson Tatum, Jaylen Brown, and Kristaps Porziņģis. The team also features Jrue Holiday and Derrick White, contributing to their defensive and offensive versatility. After defeating the Orlando Magic in the first round, the Celtics are now facing the New York Knicks in the semifinals. Despite a regular-season sweep against the Knicks, Boston lost Game 1 in overtime, highlighting the competitive nature of the series.</p>
+</div>
+</div>
+
+<div id="two">
+
+<h2>Cleveland Cavaliers</h2>
+
+<img src="img/mitchell.jpg" alt="Donovan Mitchell" id="jokic">
+
+<div class="desc">
+<p>The Cleveland Cavaliers, under the guidance of Coach Kenny Atkinson, who was named NBA Coach of the Year, have had a strong season, finishing with a 64–18 record. The team is led by Donovan Mitchell, Darius Garland, and Jarrett Allen. However, injuries to key players like Evan Mobley and De'Andre Hunter have impacted their playoff performance. After sweeping the Miami Heat in the first round, the Cavaliers are currently facing the Indiana Pacers in the Eastern Conference Semifinals, trailing 0–1 in the series. </p>
+</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="three">
+
+<h2>New York Knicks</h2>
+
+<img src="img/brunson.jpg" alt="Jalen Brunson" id="ant">
+
+<div class="desc">
+<p>The New York Knicks have made significant strides in the playoffs, advancing to the Eastern Conference Semifinals after defeating the Detroit Pistons. Led by Jalen Brunson's scoring and playmaking, the team has been bolstered by the acquisitions of Mikal Bridges and Karl-Anthony Towns. In Game 1 against the Boston Celtics, the Knicks secured a 108–105 overtime victory, with Bridges making a crucial defensive play to seal the win.</p>
+</div>
+</div>
+
+<div id="four">
+
+<h2>Indiana Pacers</h2>
+
+<img src="img/hali.jpg" alt="Tyrese Haliburton" id="steph">
+
+<div class="desc">
+<p>The Indiana Pacers have been a surprise contender in the playoffs, advancing to the Eastern Conference Semifinals after a strong regular season. Tyrese Haliburton leads the team with his exceptional playmaking, supported by players like Pascal Siakam, Bennedict Mathurin, and Myles Turner. The Pacers secured a comeback victory in Game 1 against the Cleveland Cavaliers, capitalizing on the Cavaliers' injury woes. </p>
+</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="form">
+ <h2>Who do you think will win the Eastern Conference?</h2>
+  <form action="confirmation.html">
+    <label for="team">Select a team:</label><br>
+    <select name="team" id="team" required>
+      <option value="" disabled selected>--Choose a team--</option>
+      <option value="Boston Celtics">Boston Celtics</option>
+      <option value="Cleveland Cavaliers">Cleveland Cavaliers</option>
+      <option value="New York Knicks">New York Knicks</option>
+      <option value="Indiana Pacers
+">Indiana Pacers</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+<div id="footer">
+    <p> <a href="https://www.nba.com/playoffs/2025" target="_blank">Learn More</a></p>
+</div>
+
+</body>
+</html>
